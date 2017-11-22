@@ -360,7 +360,7 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 
 /* Popouts */
-div[class*="headerDiscriminator-"] {
+span[class*="headerDiscriminator-"] {
     color: rgb(140,140,140);
 }
 

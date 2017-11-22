@@ -360,9 +360,17 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 
 /* Popouts */
+div[class*="headerDiscriminator-"] {
+    color: rgb(140,140,140);
+}
+
+div[class*="avatarNormal-"] {
+    border-color: rgba(181, 181, 181, 0.48);
+}
+
 div[class*="headerNormal-"],
 div[class*="header-"] {
-    background:rgba(37, 37, 37, var(--tm-popout-opacity))
+    background:rgba(37, 37, 37, var(--tm-popout-opacity));
 }
 
 .messages-popout-wrap, .search-popout {

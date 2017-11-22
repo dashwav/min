@@ -1,20 +1,20 @@
 :root {
 	--tm-accent: 67, 181, 129; /* R, G, B of accent-color */
 	--tm-titlebar-opacity: 0.8; /* Titlebar Opacity */
-	--tm-guilds-opacity: 0.75; /* Guilds  Opacity */
-	--tm-messages-opacity: 0.5; /* Message Bubble Opacity */
-	--tm-chat-opacity: 0.75; /* Chat BG Opacity */
-	--tm-chatbox-opacity: 0.75; /* Chatbox Opacity */
-	--tm-memberlist-opacity: 0.75; /* Memberlist Opacity */
-	--tm-channels-opacity: 0.75; /* Channel List Opacity */
-	--tm-modal-opacity: 0.75; /* Modal Opacity */
-    --tm-popout-opacity: 0.95; /* Popout Opacity */
+	--tm-guilds-opacity: 0.7; /* Guilds  Opacity */
+	--tm-messages-opacity: 0; /* Message Bubble Opacity */
+	--tm-chat-opacity: 0.5; /* Chat BG Opacity */
+	--tm-chatbox-opacity: 0.7; /* Chatbox Opacity */
+	--tm-memberlist-opacity: 0.7; /* Memberlist Opacity */
+	--tm-channels-opacity: 0.7; /* Channel List Opacity */
+    --tm-modal-opacity: 0.7; /* Modal Opacity */
+    --tm-popout-opacity: 0.99; /* Popout Opacity */
     --tm-guild-unread: rgba(206, 69, 69, 0.4); /* Unread guild accent color */
     --tm-selected-guild: rgba(206, 40, 40, 0.8); /* Selected guild accent color */
-	--tm-selected-item: rgba(30,30,30, 0.7); /* Selected Channel/Server Color */
-	--tm-hover: rgba(255,255,255,0.05); /* Hover Channel/Server Color */
-	--tm-active: rgba(255,255,255,0.1); /* Clicking Channel/Server Color */
-	--tm-version: "TransientMaterial v1.2.3"; /* Current Version */
+	--tm-selected-item: rgba(0,0,0, 0.7); /* Selected Channel/Server Color */
+    --tm-hover: rgba(255,255,255,0.05); /* Hover Channel/Server Color */
+    --tm-active: rgba(255,255,255,0.1); /* Clicking Channel/Server Color */
+	--tm-version: "min v1.0.0"; /* Current Version */
 	--tm-solo: 0;
 }
 

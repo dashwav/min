@@ -388,8 +388,7 @@ div[class*="avatarNormal-"] {
     border-color: rgba(181, 181, 181, 0.48);
 }
 
-div[class*="headerNormal-"],
-div[class*="header-"] {
+div[class*="headerNormal-"] {
     background:rgba(37, 37, 37, var(--tm-popout-opacity));
 }
 
@@ -521,6 +520,14 @@ div[class*="header-"] {
     background: rgba(37,37,37, var(--tm-modal-opacity)); /*0.85*/
 }
 
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #fff;
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: rgba(206, 206, 206, 0.3);
+}
+
 #user-profile-modal {
     background: transparent;
 }
@@ -529,6 +536,9 @@ div[class*="header-"] {
     background-color: rgba(33,33,33, var(--tm-modal-opacity));
 }
 
+#user-profile-modal .header :after {
+    background: rgba(29, 29, 29, --tm-modal-opacity)
+}
 #user-profile-modal .tab-bar-container {
     background: rgba(33,33,33, var(--tm-modal-opacity));
 }

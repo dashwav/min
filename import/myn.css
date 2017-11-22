@@ -524,11 +524,15 @@ div[class*="headerNormal-"] {
     color: #fff;
 }
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
     color: rgba(206, 206, 206, 0.3);
 }
 
 #user-profile-modal {
+    background: transparent;
+}
+
+#user-profile-modal .avatar-wrapper {
     background: transparent;
 }
 
@@ -537,10 +541,21 @@ div[class*="headerNormal-"] {
 }
 
 #user-profile-modal .header :after {
+    background-image:none;
     background: rgba(29, 29, 29, --tm-modal-opacity)
 }
 #user-profile-modal .tab-bar-container {
     background: rgba(33,33,33, var(--tm-modal-opacity));
+}
+
+#user-profile-modal .tab-bar .tab-bar-item {
+    border-bottom: none;
+    color: rgb(211, 210, 210);
+}
+
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom: none;
+    color: #fff;
 }
 
 #user-profile-modal .scroller-wrap .scroller {

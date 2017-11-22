@@ -564,6 +564,10 @@ div[class*="headerNormal-"] {
     color: #fff;
 }
 
+#user-profile-modal .guilds .guild:hover {
+    background: rgba(142,142, 142, 0.5);
+}
+
 #user-profile-modal .scroller-wrap .scroller {
     background: rgba(48,48,48, var(--tm-modal-opacity));
 }
@@ -575,9 +579,6 @@ div[class*="headerNormal-"] {
 
 /* Upload Modal */
 
-div[class*="autocomplete-"] {
-
-}
 
 .bd-blue .upload-modal {
     background: rgba(33, 33, 33, 0.76);
@@ -589,6 +590,10 @@ div[class*="autocomplete-"] {
 
 .upload-modal .footer {
     background-color: rgba(58, 58, 58, 0.75);
+}
+
+.theme-brand [class*="content-"] {
+    color: #f6f5f7;
 }
 
 textarea[class*="textAreaForm-"] {

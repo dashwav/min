@@ -291,8 +291,12 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 /* Autocomplete */
 [class*="theme-"] .autocomplete-1TnWNR {
-    color: #fff;
+
     background: rgba(37,37,37,0.95) !important; /*0.85*/
+}
+
+[class*="autocomplete-"]{
+    color: #fff;
 }
 
 [class*="theme-"] .selectorSelected-2M0IGv {
@@ -575,15 +579,15 @@ div[class*="autocomplete-"] {
 
 }
 
-.upload-modal {
+.bd-blue .upload-modal {
     background: rgba(33, 33, 33, 0.76);
 }
 
-.upload-modal.inner {
+.upload-modal .inner {
     border: 2px dashed grey;
 }
 
-.upload-modal.footer {
+.upload-modal .footer {
     background-color: rgba(58, 58, 58, 0.75);
 }
 

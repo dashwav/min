@@ -67,9 +67,7 @@ div.messages.scroller {
 }
 
 .container-iksrDt {
-    min-height: calc((1 - var(--tm-solo)) * 70px);
-    padding-top: calc(var(--tm-solo) * 1px);
-    padding-bottom: calc(var(--tm-solo) * 1px);
+    min-height: 54px;
 }
 /* End Title Bar + Account Status */
 
@@ -369,6 +367,11 @@ div[class*="header-"] {
 
 .messages-popout-wrap, .search-popout {
     background: rgba(33,33,33, var(--tm-popout-opacity))!important;
+}
+
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
 }
 
 .messages-popout-wrap .header, .popout-bottom .popout-menu,

@@ -537,6 +537,7 @@ div[class*="headerNormal-"] {
 }
 
 #user-profile-modal .header {
+    background-image: none;
     background-color: rgba(33,33,33, var(--tm-modal-opacity));
 }
 
@@ -560,6 +561,10 @@ div[class*="headerNormal-"] {
 
 #user-profile-modal .scroller-wrap .scroller {
     background: rgba(48,48,48, var(--tm-modal-opacity));
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+    color: #fff;
 }
 /* End Section */
 

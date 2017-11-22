@@ -28,6 +28,10 @@ html, span:not(.spinner-item) {
     backface-visibility: hidden;
 }
 
+div.messages.scroller {
+    padding-bottom:20px;
+}
+
 .backdrop-2ohBEd, .bda-backdrop {
     background: #000 !important;
     opacity: 0.9 !important;
@@ -194,10 +198,6 @@ div[class*="contentHoveredVoice-"]:active {
     padding-left: 20px;
 }
 
-.message-group:last-of-type {
-    margin-bottom: 30px!important;
-}
-
 .comment {
     background: rgba(0,0,0, var(--tm-messages-opacity)) !important;
     padding: 0px 7px 10px 10px;
@@ -362,6 +362,11 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 
 /* Popouts */
+div[class*="headerNormal-"],
+div[class*="header-"] {
+    background:rgba(37, 37, 37, var(--tm-popout-opacity))
+}
+
 .messages-popout-wrap, .search-popout {
     background: rgba(33,33,33, var(--tm-popout-opacity))!important;
 }
@@ -598,6 +603,11 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 }
 /* End Section */
 
+
+.member-roles .member-role {
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 254, 254, 0.41);
+}
 
 
 ::-webkit-scrollbar-thumb,

@@ -1,6 +1,6 @@
-//META{"name":"TransientMaterial","description":"Transparency patch theme for Beard's Material Design Theme","author":"Zerebos","version":"1.0.0"}*//{}
+//META{"name":"min","description":"minimalistic theme based on Zerebos' TransientMaterial","author":"Dashwav","version":"1.0.0"}*//{}
 
-@import url(https://rawgit.com/rauenzi/BetterDiscordAddons/master/Themes/TransientMaterial/import/TransientMaterial.css);
+@import url(https://raw.githubusercontent.com/dashwav/min/master/import/min.css);
 
 /* Change the URLs here to your image and make sure the link starts with https not http */
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {
@@ -8,11 +8,6 @@
 	background-size: cover !important;
 	background-position: center !important;
 }
-
-.guilds-wrapper .guilds .guild+.guild {
-	margin-top: 8px;
-}
-
 
 /* Custom Variables */
 :root {
@@ -31,4 +26,3 @@
     --tm-active: rgba(255,255,255,0.1); /* Clicking Channel/Server Color */
 }
 
-channelTextAreaEnabled-c05Zpy channelTextArea-1HTP3C channelTextArea-os01xC

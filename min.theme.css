@@ -1,6 +1,6 @@
 //META{"name":"min","description":"minimalistic theme based on Zerebos' TransientMaterial","author":"Dashwav","version":"1.0.0"}*//{}
 
-@import url(https://rawgit.com/dashwav/min/master/import/min.css);
+@import url(https://dashwav.github.io/min/import/min.css);
 
 /* Change the URLs here to your image and make sure the link starts with https not http */
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {
@@ -21,8 +21,10 @@
     --tm-channels-opacity: 0.7; /* Channel List Opacity */
     --tm-modal-opacity: 0.7; /* Modal Opacity */
     --tm-popout-opacity: 0.99; /* Popout Opacity */
+    --tm-guild-unread: rgba(206, 69, 69, 0.4); /* Unread guild accent color */
+    --tm-selected-guild: rgba(226, 121, 121, 0.8); /* Selected guild accent color */
     --tm-selected-item: rgba(0,0,0, 0.7); /* Selected Channel/Server Color */
-    --tm-hover: rgba(255,255,255,0.05); /* Hover Channel/Server Color */
-    --tm-active: rgba(255,255,255,0.1); /* Clicking Channel/Server Color */
+    --tm-hover: rgba(206, 69, 69, 0.1); /* Hover Channel/Server Color */
+    --tm-active: rgba(206, 69, 69, 0.1); /* Clicking Channel/Server Color */
 }
 

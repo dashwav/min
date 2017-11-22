@@ -163,6 +163,13 @@ div.messages.scroller {
 
 /* End Guilds Wrapper */
 
+div.new-messages-bar {
+    background-color: rgba(69, 69, 69, 0.8);
+}
+
+button.new-messages-bar {
+    color:#fff;
+}
 
 /* Channel List */
 .channels-3g2vYe .scroller-fzNley {

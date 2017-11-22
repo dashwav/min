@@ -318,6 +318,15 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 
 /* Friends/DMs */
+
+.private-channels .search-bar {
+    background-color: #2f3136;
+}
+
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: rgb(99,99,99);
+}
+
 .private-channels {
     background: transparent !important;   
 }
@@ -369,6 +378,10 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 /* Popouts */
 span[class*="headerDiscriminator-"] {
     color: rgb(140,140,140);
+}
+
+div[class*="nameTag-"] {
+    color: #FFF;
 }
 
 div[class*="avatarNormal-"] {

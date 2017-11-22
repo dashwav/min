@@ -14,7 +14,7 @@
     --tm-selected-item: rgba(0,0,0, 0.7); /* Selected Channel/Server Color */
     --tm-hover: rgba(206, 69, 69, 0.1); /* Hover Channel/Server Color */
     --tm-active: rgba(206, 69, 69, 0.1); /* Clicking Channel/Server Color */
-    --tm-version: "min v1.0.0"; /* Current Version */
+    --tm-version: "myn v1.0.0"; /* Current Version */
     --tm-solo: 0;
 }
 

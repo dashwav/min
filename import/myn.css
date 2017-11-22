@@ -541,7 +541,7 @@ div[class*="headerNormal-"] {
     background-color: rgba(33,33,33, var(--tm-modal-opacity));
 }
 
-#user-profile-modal .header :after {
+#user-profile-modal .header:after {
     background-image:none;
     background: rgba(29, 29, 29, --tm-modal-opacity)
 }

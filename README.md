@@ -1,5 +1,5 @@
 # myn
-Better Discord theme based on TransientMaterial by Zerebos
+Better Discord theme based on [TransientMaterial](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Themes/TransientMaterial) by Zerebos
 
 ## Install
 Just download <a href="https://github.com/dashwav/myn-theme/blob/master/myn.theme.css" download>this file</a> and drop it in your BetterDiscord theme folder.

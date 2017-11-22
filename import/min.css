@@ -8,7 +8,9 @@
 	--tm-memberlist-opacity: 0.75; /* Memberlist Opacity */
 	--tm-channels-opacity: 0.75; /* Channel List Opacity */
 	--tm-modal-opacity: 0.75; /* Modal Opacity */
-	--tm-popout-opacity: 0.95; /* Popout Opacity */
+    --tm-popout-opacity: 0.95; /* Popout Opacity */
+    --tm-guild-unread: rgba(206, 69, 69, 0.4); /* Unread guild accent color */
+    --tm-selected-guild: rgba(206, 40, 40, 0.8); /* Selected guild accent color */
 	--tm-selected-item: rgba(30,30,30, 0.7); /* Selected Channel/Server Color */
 	--tm-hover: rgba(255,255,255,0.05); /* Hover Channel/Server Color */
 	--tm-active: rgba(255,255,255,0.1); /* Clicking Channel/Server Color */
@@ -146,11 +148,13 @@ html, span:not(.spinner-item) {
 }
 
 .guilds-wrapper .guilds .guild.unread::before, .guilds-wrapper .guilds .guild.selected::before {
+    background: vars(--tm-guild-unread);
     margin-top: -20px;
     height: 80%;
 }
 
 .guilds-wrapper .guilds .guild.selected::before, .guilds-wrapper .guilds .guild.unread:hover::before {
+    background: var(--tm-selected-guild);
     border-radius: 20px;
     transition: border-radius .2s ease-out;
 }
@@ -239,6 +243,7 @@ html, span:not(.spinner-item) {
 
 div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
     padding: 5px;
+    margin: none;
 }
 
 .messages-wrapper .messages .divider span {

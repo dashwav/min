@@ -1,6 +1,6 @@
 //META{"name":"myn","description":"minimalistic theme based on Zerebos' TransientMaterial","author":"Dashwav","version":"1.0.0"}*//{}
 
-@import url(https://dashwav.github.io/myn-theme/import/myn.css);
+@import url(https://cdn.rawgit.com/dashwav/myn-theme/55485831/import/myn.css);
 
 /* Change the URLs here to your image and make sure the link starts with https not http */
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {

@@ -291,6 +291,7 @@ div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
 
 /* Autocomplete */
 [class*="theme-"] .autocomplete-1TnWNR {
+    color: #fff;
     background: rgba(37,37,37,0.95) !important; /*0.85*/
 }
 
@@ -567,6 +568,29 @@ div[class*="headerNormal-"] {
     color: #fff;
 }
 /* End Section */
+
+/* Upload Modal */
+
+div[class*="autocomplete-"] {
+
+}
+
+.upload-modal {
+    background: rgba(33, 33, 33, 0.76);
+}
+
+.upload-modal.inner {
+    border: 2px dashed grey;
+}
+
+.upload-modal.footer {
+    background-color: rgba(58, 58, 58, 0.75);
+}
+
+textarea[class*="textAreaForm-"] {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
 
 
 /* Settings */

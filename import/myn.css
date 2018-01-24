@@ -595,11 +595,11 @@ div[class*="headerNormal-"] {
     background: rgba(33, 33, 33, 0.76);
 }
 
-[class*="uploadModal"] .inner {
+[class*="uploadModal"] [class*="inner-"] {
     border: 2px dashed grey;
 }
 
-[class*="uploadModal"] .footer {
+[class*="uploadModal"] [class*="footer"] {
     background-color: rgba(58, 58, 58, 0.75);
 }
 

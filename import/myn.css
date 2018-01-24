@@ -37,7 +37,8 @@ div.messages.scroller {
     opacity: 0.9 !important;
 }
 
-[class*="theme-"] .layers, [class*="theme-"] .layer, [class*="theme-"] .ui-standard-sidebar-view,  [class*="theme-"] .layer-kosS71, 
+[class*="theme-"] .layers, [class*="theme-"] .layer, [class*="theme-"] .ui-standard-sidebar-view,  
+[class*="theme-"] [class*="layer-"], [class*="theme-"] [class*="layers-"],
 [class*="theme-"] .chat, .chat>.titleWrapper-3Vi_wz>.title-qAcLxz, .messages.scroller, 
 .messages-wrapper .messages .message-group:not(.has-divider),
 [class*="theme-"] .messages-wrapper, #friends .friends-table,

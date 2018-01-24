@@ -23,8 +23,8 @@
     background-color: rgba(25,25,25, var(--tm-titlebar-opacity));
 }
 
-[class*="emojiPicker-"] [class*="search-bar-inner"] {
-    background-color: transparent;
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: black;
 }
 
 #app-mount, #pubslayerroot .layer .ui-standard-sidebar-view {

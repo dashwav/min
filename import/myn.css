@@ -18,8 +18,13 @@
     --tm-solo: 0;
 }
 
-[class*="emojiPicker-"], [class*="emojiPicker-"] [class*="header-"], [class*="emojiPicker-"] [class*="stickyHeader-"] {
-    background-color: rgba(25,25,25, var(--tm-titlebar-opacity))
+[class*="emojiPicker-"], [class*="emojiPicker-"] [class*="header-"], [class*="emojiPicker-"] [class*="stickyHeader-"],
+[class*="emojiPicker-"] [class*="search-bar-light"] {
+    background-color: rgba(25,25,25, var(--tm-titlebar-opacity));
+}
+
+[class*="emojiPicker-"] [class*="search-bar-inner"] {
+    background-color: transparent;
 }
 
 #app-mount, #pubslayerroot .layer .ui-standard-sidebar-view {

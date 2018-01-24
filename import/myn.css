@@ -591,15 +591,15 @@ div[class*="headerNormal-"] {
 /* Upload Modal */
 
 
-.bd-blue .upload-modal {
+.bd-blue [class*="uploadModal"] {
     background: rgba(33, 33, 33, 0.76);
 }
 
-.upload-modal .inner {
+[class*="uploadModal"] .inner {
     border: 2px dashed grey;
 }
 
-.upload-modal .footer {
+[class*="uploadModal"] .footer {
     background-color: rgba(58, 58, 58, 0.75);
 }
 

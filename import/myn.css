@@ -18,7 +18,7 @@
     --tm-solo: 0;
 }
 
-[class*="emojiPicker-"] {
+[class*="emojiPicker-"], [class*="emojiPicker-"] [class*="header-"], [class*="emojiPicker-"] [class*="stickyHeader-"] {
     background-color: rgba(25,25,25, var(--tm-titlebar-opacity))
 }
 
@@ -716,7 +716,7 @@ textarea[class*="textAreaForm-"] {
 .scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-thumb,
 .private-channels .scroller::-webkit-scrollbar-thumb,
 .channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-thumb,
-[class*="emojiPicker-"] .scroller::-webkit-scrollbar-thumb,
+.emoji-picker .scroller::-webkit-scrollbar-thumb,
 .channel-members::-webkit-scrollbar-thumb,
 .scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-thumb,
 .channel-members-wrap .channel-members::-webkit-scrollbar-thumb,
@@ -738,7 +738,7 @@ textarea[class*="textAreaForm-"] {
 .scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-thumb:active,
 .private-channels .scroller::-webkit-scrollbar-thumb:active,
 .channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-thumb:active,
-[class*="emojiPicker-"] .scroller::-webkit-scrollbar-thumb:active,
+.emoji-picker .scroller::-webkit-scrollbar-thumb:active,
 .channel-members::-webkit-scrollbar-thumb:active,
 .scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-thumb:active,
 .channel-members-wrap .channel-members::-webkit-scrollbar-thumb:active,
@@ -756,7 +756,7 @@ textarea[class*="textAreaForm-"] {
 .scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-track-piece,
 .private-channels .scroller::-webkit-scrollbar-track-piece,
 .channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-track-piece,
-[class*="emojiPicker-"] .scroller::-webkit-scrollbar-track-piece,
+.emoji-picker .scroller::-webkit-scrollbar-track-piece,
 .channel-members::-webkit-scrollbar-track-piece,
 .scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-track-piece,
 .channel-members-wrap .channel-members::-webkit-scrollbar-track-piece,
@@ -775,7 +775,7 @@ textarea[class*="textAreaForm-"] {
 .scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar,
 .private-channels .scroller::-webkit-scrollbar,
 .channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar,
-[class*="emojiPicker-"] .scroller::-webkit-scrollbar,
+.emoji-picker .scroller::-webkit-scrollbar,
 .channel-members::-webkit-scrollbar,
 .channel-members-wrap .channel-members::-webkit-scrollbar,
 .scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar,

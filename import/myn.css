@@ -23,6 +23,10 @@
     background-color: rgba(25,25,25, var(--tm-titlebar-opacity));
 }
 
+div[class*="container-"] {
+    background: rgba(25,25,25, var(--tm-chat-opacity));
+}
+
 .search-bar.search-bar-light .search-bar-inner {
     background-color: black;
 }
@@ -48,7 +52,7 @@ div.messages.scroller {
 
 [class*="theme-"] .layers, [class*="theme-"] .layer, [class*="theme-"] .ui-standard-sidebar-view,  
 [class*="theme-"] [class*="layer-"], [class*="theme-"] [class*="layers-"],
-[class*="theme-"] .chat, .chat>.titleWrapper-3Vi_wz>.title-qAcLxz, .messages.scroller, 
+[class*="theme-"] .chat, .chat>.titleWrapper-3Vi_wz>.title-3qD0b-, .messages.scroller, 
 .messages-wrapper .messages .message-group:not(.has-divider),
 [class*="theme-"] .messages-wrapper, #friends .friends-table,
 .container-3NvGrL, [class*="theme-"] .chat>.content,
@@ -60,7 +64,7 @@ div.messages.scroller {
 }
 
 /* Title Bar + Account Status */
-.titleBar-3_fDwJ {
+.title-3qD0b-, .container-2Rl01u {
     background: rgba(25,25,25, var(--tm-titlebar-opacity)) !important;
 }
 
@@ -182,7 +186,7 @@ button.new-messages-bar {
 }
 
 /* Channel List */
-.channels-3g2vYe .scroller-fzNley {
+div[class*="channels-"], div[class*="members-"] {
     background: rgba(33,33,33, var(--tm-channels-opacity)) !important;   
 }
 
@@ -257,8 +261,11 @@ div[class*="contentHoveredVoice-"]:active {
 }
 
 div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
-    padding: 5px;
     margin: 0px;
+}
+
+div[class*="InnerEnabled-"] {
+    background-color: transparent;
 }
 
 .messages-wrapper .messages .divider span {
@@ -603,6 +610,9 @@ div[class*="headerNormal-"] {
     background-color: rgba(58, 58, 58, 0.75);
 }
 
+.theme-brand [class*="inner-zqa7da"] {
+    background-color: transparent;
+}
 .theme-brand [class*="content-"] {
     color: #f6f5f7;
 }

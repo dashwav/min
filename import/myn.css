@@ -261,6 +261,7 @@ div[class*="contentHoveredVoice-"]:active {
 }
 
 div[class*="channelTextAreaEnabled-"], div[class*=" channelTextArea-"] {
+    padding: 4px;
     margin: 0px;
 }
 

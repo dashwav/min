@@ -45,21 +45,21 @@ div.messages.scroller {
     padding-bottom:20px;
 }
 
-.backdrop-2ohBEd, .bda-backdrop {
+.backdrop-1ocfXc, .bda-backdrop {
     background: #000 !important;
     opacity: 0.9 !important;
 }
 
 [class*="theme-"] .layers, [class*="theme-"] .layer, [class*="theme-"] .ui-standard-sidebar-view,  
 [class*="theme-"] [class*="layer-"], [class*="theme-"] [class*="layers-"],
-[class*="theme-"] .chat, .chat>.titleWrapper-3Vi_wz>.title-3qD0b-, .messages.scroller, 
+[class*="theme-"] .chat, .chat>.titleWrapper-1l0xT9>.title-3qD0b-, .messages.scroller, 
 .messages-wrapper .messages .message-group:not(.has-divider),
 [class*="theme-"] .messages-wrapper, #friends .friends-table,
-.container-3NvGrL, [class*="theme-"] .chat>.content,
+.container-2Rl01u, [class*="theme-"] .chat>.content,
 .flex-horizontal>.flex-spacer:not(.private-channel-call-participants),
-.channels-3g2vYe, .container-RYiLUQ,
-[class*="theme-"] .inner-3if5cm, .theme-dark .inner-3if5cm,
-.container-2OU7Cz, .appMount-14L89u {
+.channels-Ie2l6A, .container-PNkimc,
+[class*="theme-"] .inner-zqa7da, .theme-dark .inner-zqa7da,
+.container-2lgZY8, .appMount-3VJmYg {
     background: transparent !important;
 }
 
@@ -68,11 +68,11 @@ div.messages.scroller {
     background: rgba(25,25,25, var(--tm-titlebar-opacity)) !important;
 }
 
-.chat .titleWrapper-3Vi_wz, #friends .friends-header, .header-1tSljs, .container-iksrDt {
+.chat .titleWrapper-1l0xT9, #friends .friends-header, .header-2o-2hj, .container-2Thooq {
     background: rgba(20,20,20, var(--tm-titlebar-opacity)) !important;
 }
 
-.header-1tSljs:hover {
+.header-2o-2hj:hover {
     background: rgba(10,10,10, var(--tm-titlebar-opacity)) !important;
 }
 
@@ -80,7 +80,7 @@ div.messages.scroller {
     background-color: rgba(255,255,255, 0.1);
 }
 
-.container-iksrDt {
+.container-2Thooq {
     min-height: 54px;
 }
 /* End Title Bar + Account Status */
@@ -190,8 +190,8 @@ div[class*="channels-"], div[class*="members-"] {
     background: rgba(33,33,33, var(--tm-channels-opacity)) !important;   
 }
 
-.contentSelectedText-3j5CXt,
-.contentSelectedVoice-gTtYM9 {
+.contentSelectedText-3wUhMi,
+.contentSelectedVoice-1WDIBM {
     background: var(--tm-selected-item) !important;
 }
 
@@ -243,7 +243,7 @@ div[class*="contentHoveredVoice-"]:active {
     border: none !important;
 }
 
-.inner-3if5cm .textArea-20yzAH:focus, .inner-3if5cm:hover .textArea-20yzAH {
+.inner-zqa7da .textArea-2Spzkt:focus, .inner-zqa7da:hover .textArea-2Spzkt {
     opacity: 0.64!important;
 }
 
@@ -291,11 +291,11 @@ div[class*="InnerEnabled-"] {
     margin: 5px 6px 10px 20px;
 }
 
-/* .horizontal-2VE-Fw {
+/* .horizontal-2EEEnY {
     align-items: center;
 } */
 
-/* .textArea-20yzAH {
+/* .textArea-2Spzkt {
     padding: 26px 0px;
     padding-top: calc((-8px * var(--tm-solo)) + 26px);
     padding-bottom: calc((-8px * var(--tm-solo)) + 26px);
@@ -308,7 +308,7 @@ div[class*="InnerEnabled-"] {
 
 
 /* Autocomplete */
-[class*="theme-"] .autocomplete-1TnWNR {
+[class*="theme-"] .autocomplete-1vrmpx {
 
     background: rgba(37,37,37,0.95) !important; /*0.85*/
 }
@@ -317,15 +317,15 @@ div[class*="InnerEnabled-"] {
     color: #fff;
 }
 
-[class*="theme-"] .selectorSelected-2M0IGv {
+[class*="theme-"] .selectorSelected-1_M1WV {
     background: var(--tm-selected-item) !important;
 }
 /* End Autocomplete */
 
 
 /* Member List */
-.theme-dark .channel-members-wrap > .scrollerWrap-2uBjct .member, .theme-dark .channel-members-wrap > .scrollerWrap-2uBjct h2 {opacity:0;}
-.theme-dark .channel-members-wrap > .scrollerWrap-2uBjct:only-child .member, .theme-dark .channel-members-wrap > .scrollerWrap-2uBjct:only-child h2 {opacity:1;}
+.theme-dark .channel-members-wrap > .scrollerWrap-2lJEkd .member, .theme-dark .channel-members-wrap > .scrollerWrap-2lJEkd h2 {opacity:0;}
+.theme-dark .channel-members-wrap > .scrollerWrap-2lJEkd:only-child .member, .theme-dark .channel-members-wrap > .scrollerWrap-2lJEkd:only-child h2 {opacity:1;}
 .theme-dark .channel-members:only-child, .theme-dark .channel-members-loading {
     background: rgba(33,33,33, var(--tm-memberlist-opacity)) !important;   
 }
@@ -376,7 +376,7 @@ div[class*="InnerEnabled-"] {
     background-color: rgba(20,20,20, 0.7) !important;
 }
 
-.private-channels .scrollerWrap-2uBjct::before {
+.private-channels .scrollerWrap-2lJEkd::before {
     background: rgba(20,20,20, var(--tm-titlebar-opacity));
 }
 
@@ -629,7 +629,7 @@ textarea[class*="textAreaForm-"] {
     background: rgba(33,33,33, 0.7) !important;
 }
 
-.container-3lnMWU,
+.container-1UB9sr,
 [class*="theme-"] .ui-standard-sidebar-view .sidebar-region {
     background: rgba(20,20,20, 0.7) !important;
 }
@@ -638,7 +638,7 @@ textarea[class*="textAreaForm-"] {
     background: var(--tm-selected-item) !important;
 }
 
-[class*="theme-"] .cardPrimaryEditable-2IQ7-V, [class*="theme-"] .cardPrimaryOutline-2YyAz2, .ui-radiogroup .radio-item, [class*="theme-"] .cardPrimary-ZVL9Jr, [class*="theme-"] .ui-card-primary.editable, [class*="theme-"] .ui-card-primary {
+[class*="theme-"] .cardPrimaryEditable-3KtE4g, [class*="theme-"] .cardPrimaryOutline-29Ujqw, .ui-radiogroup .radio-item, [class*="theme-"] .cardPrimary-1Hv-to, [class*="theme-"] .ui-card-primary.editable, [class*="theme-"] .ui-card-primary {
     background: rgba(41,41,41,0.7);   
 }
 
@@ -658,17 +658,17 @@ textarea[class*="textAreaForm-"] {
 .buttonBrandFilled-3Mv0Ra, .buttonBrandFilled-3Mv0Ra:hover, .ui-button.brand.filled, .ui-button.brand.filled:hover,
 .create-guild-container.deprecated .action:hover.create .btn, .region-select:hover button, .slider-bar-fill, .form .btn-primary:hover, .form .btn-primary,
 .ui-standard-sidebar-view #bd-settingspane-container .content-column.default .bda-slist::after, .itemDefaultSelected-1UAWLe,
-.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"], .radio-item.checked[style*="background-color: rgb(114, 137, 218);"], [class*="theme-"] .ui-card-primary.checked {
+.cardPrimaryEditable-3KtE4g[style*="background-color: rgb(114, 137, 218);"], .radio-item.checked[style*="background-color: rgb(114, 137, 218);"], [class*="theme-"] .ui-card-primary.checked {
     /* opacity: 0.85; */
     background: rgba(var(--tm-accent), 0.7) !important;
     border: none !important;
 }
 
-.barFill-18ABna {
+.barFill-23-gu- {
     background: rgba(var(--tm-accent), 0.7) !important;
 }
 
-.cardWarning-31DHBH {
+.cardWarning-2yPNAa {
     background: rgba(250,166,26,0.7);
     border-color: rgba(250,166,26,0.7);
 }
@@ -686,15 +686,15 @@ textarea[class*="textAreaForm-"] {
     background: rgba(67,181,129,0.7);
 }
 
-.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(240, 71, 71);"] {
+.cardPrimaryEditable-3KtE4g[style*="background-color: rgb(240, 71, 71);"] {
     background: rgba(240, 71, 71, 0.7) !important;   
 }
 
-.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(67, 181, 129);"] {
+.cardPrimaryEditable-3KtE4g[style*="background-color: rgb(67, 181, 129);"] {
     background: rgba(67, 181, 129, 0.7) !important;
 }
 
-.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(250, 166, 26);"] {
+.cardPrimaryEditable-3KtE4g[style*="background-color: rgb(250, 166, 26);"] {
     background: rgba(250, 166, 26, 0.7) !important;
 }
 
@@ -728,15 +728,15 @@ textarea[class*="textAreaForm-"] {
 
 ::-webkit-scrollbar-thumb,
 #autocomplete-popout .autocomplete-scroller::-webkit-scrollbar-thumb,
-.modal-3HOjGZ .reactors-2PjMP0 .scroller-fzNley::-webkit-scrollbar-thumb,
-.scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-thumb,
+.modal-3HD5ck .reactors-Blmlhw .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scroller-2FKFPG.sidebar-region-scroller::-webkit-scrollbar-thumb,
 .private-channels .scroller::-webkit-scrollbar-thumb,
-.channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-thumb,
+.channels-Ie2l6A .scroller-2v3d_F::-webkit-scrollbar-thumb,
 [class*="emojiPicker-"] [class*="scroller-"]::-webkit-scrollbar-thumb,
 .channel-members::-webkit-scrollbar-thumb,
-.scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-thumb,
+.scroller-2FKFPG.scroller-2v3d_F::-webkit-scrollbar-thumb,
 .channel-members-wrap .channel-members::-webkit-scrollbar-thumb,
-.ui-popout-list .scroller-3J0bdT::-webkit-scrollbar-thumb,
+.ui-popout-list .scroller-2CvAgC::-webkit-scrollbar-thumb,
 .ui-standard-sidebar-view .content-region-scroller::-webkit-scrollbar-thumb,
 .user-popout .section.roles::-webkit-scrollbar-thumb,
 .ui-standard-sidebar-view .scroller::-webkit-scrollbar-thumb,
@@ -750,15 +750,15 @@ textarea[class*="textAreaForm-"] {
 
 ::-webkit-scrollbar-thumb:active,
 #autocomplete-popout .autocomplete-scroller::-webkit-scrollbar-thumb:active,
-.modal-3HOjGZ .reactors-2PjMP0 .scroller-fzNley::-webkit-scrollbar-thumb:active,
-.scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-thumb:active,
+.modal-3HD5ck .reactors-Blmlhw .scroller-2FKFPG::-webkit-scrollbar-thumb:active,
+.scroller-2FKFPG.sidebar-region-scroller::-webkit-scrollbar-thumb:active,
 .private-channels .scroller::-webkit-scrollbar-thumb:active,
-.channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-thumb:active,
+.channels-Ie2l6A .scroller-2v3d_F::-webkit-scrollbar-thumb:active,
 [class*="emojiPicker-"] [class*="scroller-"]::-webkit-scrollbar-thumb:active,
 .channel-members::-webkit-scrollbar-thumb:active,
-.scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-thumb:active,
+.scroller-2FKFPG.scroller-2v3d_F::-webkit-scrollbar-thumb:active,
 .channel-members-wrap .channel-members::-webkit-scrollbar-thumb:active,
-.ui-popout-list .scroller-3J0bdT::-webkit-scrollbar-thumb:active,
+.ui-popout-list .scroller-2CvAgC::-webkit-scrollbar-thumb:active,
 .ui-standard-sidebar-view .content-region-scroller::-webkit-scrollbar-thumb:active,
 .user-popout .section.roles::-webkit-scrollbar-thumb:active,
 .ui-standard-sidebar-view .scroller::-webkit-scrollbar-thumb:active
@@ -768,15 +768,15 @@ textarea[class*="textAreaForm-"] {
 
 ::-webkit-scrollbar-track-piece,
 #autocomplete-popout .autocomplete-scroller::-webkit-scrollbar-track-piece,
-.modal-3HOjGZ .reactors-2PjMP0 .scroller-fzNley::-webkit-scrollbar-track-piece,
-.scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar-track-piece,
+.modal-3HD5ck .reactors-Blmlhw .scroller-2FKFPG::-webkit-scrollbar-track-piece,
+.scroller-2FKFPG.sidebar-region-scroller::-webkit-scrollbar-track-piece,
 .private-channels .scroller::-webkit-scrollbar-track-piece,
-.channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar-track-piece,
+.channels-Ie2l6A .scroller-2v3d_F::-webkit-scrollbar-track-piece,
 [class*="emojiPicker-"] [class*="scroller-"]::-webkit-scrollbar-track-piece,
 .channel-members::-webkit-scrollbar-track-piece,
-.scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar-track-piece,
+.scroller-2FKFPG.scroller-2v3d_F::-webkit-scrollbar-track-piece,
 .channel-members-wrap .channel-members::-webkit-scrollbar-track-piece,
-.ui-popout-list .scroller-3J0bdT::-webkit-scrollbar-track-piece,
+.ui-popout-list .scroller-2CvAgC::-webkit-scrollbar-track-piece,
 .ui-standard-sidebar-view .content-region-scroller::-webkit-scrollbar-track-piece,
 .user-popout .section.roles::-webkit-scrollbar-track-piece,
 .ui-standard-sidebar-view .scroller::-webkit-scrollbar-track-piece,
@@ -787,15 +787,15 @@ textarea[class*="textAreaForm-"] {
 
 ::-webkit-scrollbar,
 #autocomplete-popout .autocomplete-scroller::-webkit-scrollbar,
-.modal-3HOjGZ .reactors-2PjMP0 .scroller-fzNley::-webkit-scrollbar,
-.scroller-fzNley.sidebar-region-scroller::-webkit-scrollbar,
+.modal-3HD5ck .reactors-Blmlhw .scroller-2FKFPG::-webkit-scrollbar,
+.scroller-2FKFPG.sidebar-region-scroller::-webkit-scrollbar,
 .private-channels .scroller::-webkit-scrollbar,
-.channels-3g2vYe .scroller-NXV0-d::-webkit-scrollbar,
+.channels-Ie2l6A .scroller-2v3d_F::-webkit-scrollbar,
 [class*="emojiPicker-"] [class*="scroller-"]::-webkit-scrollbar,
 .channel-members::-webkit-scrollbar,
 .channel-members-wrap .channel-members::-webkit-scrollbar,
-.scroller-fzNley.scroller-NXV0-d::-webkit-scrollbar,
-.ui-popout-list .scroller-3J0bdT::-webkit-scrollbar,
+.scroller-2FKFPG.scroller-2v3d_F::-webkit-scrollbar,
+.ui-popout-list .scroller-2CvAgC::-webkit-scrollbar,
 .ui-standard-sidebar-view .content-region-scroller::-webkit-scrollbar,
 .user-popout .section.roles::-webkit-scrollbar,
 .ui-standard-sidebar-view .scroller::-webkit-scrollbar,
